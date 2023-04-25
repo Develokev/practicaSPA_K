@@ -8,7 +8,8 @@ export const Smartphones = () => {
     const {products}=useFetchCat(url)
 
   return (
-    <div>
+    
+    <section className='card-container-mf'>
         {
             products.map(product=>(
                 <Cards
@@ -16,7 +17,6 @@ export const Smartphones = () => {
                 {...product}/>
             ))
         }
-        
-    </div>
+      </section>
   )
 }

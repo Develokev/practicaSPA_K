@@ -5,7 +5,6 @@ export const Cards = ({id, name, description, brand, src, price, rating}) => {
 
   return (
     <>
-        <section className='card-container-mf'>
 
             <article className="product-card">
 
@@ -28,7 +27,6 @@ export const Cards = ({id, name, description, brand, src, price, rating}) => {
                 </div>
             </article>
 
-        </section>
    </>
   )
 }

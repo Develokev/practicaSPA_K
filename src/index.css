@@ -268,7 +268,6 @@
 @media screen and (min-width:768px) {
 
   .card-container-mf {
-    display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -280,10 +279,6 @@
 ======================================*/
 @media screen and (min-width:992px) {
 
-  .card-container-mf {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
 
 }
 /*992px end.*/
@@ -294,7 +289,6 @@
 @media screen and (min-width:1200px) {
 
   .card-container-mf {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
